@@ -1,6 +1,18 @@
 #include <iostream>
 #include <vector>
 
+/*
+Platform: Project Euler
+Problem: 11
+Problem Name: Largest Product in a Grid
+
+Problem Statement:
+In the 20x20 grid below, four numbers along a diagonal line have been marked in red (on the website)
+
+The product of these numbers is .... (on the website)
+What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally)
+in the 20x20 grid?
+*/
 int main(int argc, char **argv)
 {
     std::vector<std::vector<int>> mat = {
