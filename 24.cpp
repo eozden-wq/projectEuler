@@ -34,7 +34,7 @@ uint8_t get_kth_digit(std::vector<uint8_t> &ordering, uint8_t k) {
   return result;
 }
 
-int main(int argc, char **argv) {
+int main() {
   uint64_t result = 0;
   uint32_t n = 9, permutation = 999999;
   std::vector<uint8_t> ordering{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};

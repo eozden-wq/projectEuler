@@ -55,7 +55,7 @@ unsigned long long int get_cell_max(std::vector<std::vector<int>> &mat, short i,
   return std::max({n, s, w, e, ne, se, sw, nw});
 }
 
-int main(int argc, char **argv)
+int main()
 {
   std::vector<std::vector<int>> mat = {
       {8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8},

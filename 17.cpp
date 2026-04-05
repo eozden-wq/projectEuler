@@ -65,7 +65,7 @@ int letter_count(int n)
     return 11;
 }
 
-int main(int argc, char **argv)
+int main()
 {
     int res = 0;
 

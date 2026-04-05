@@ -18,7 +18,7 @@
  * What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral
  * formed in the same way.
  * */
-int main(int argc, char **argv) {
+int main() {
   std::vector<std::vector<uint32_t>> spiral(N, std::vector<uint32_t>(N, 0));
 
   uint32_t result = 0;

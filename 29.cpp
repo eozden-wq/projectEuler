@@ -29,7 +29,7 @@ uint8_t log(uint8_t n, uint8_t base) {
   return x;
 }
 
-int main(int argc, char **argv) {
+int main() {
   std::vector<uint8_t> parents(101, 0);
   uint32_t result = 0;
   std::set<std::pair<uint8_t, uint16_t>> pairs;

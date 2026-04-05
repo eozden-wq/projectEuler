@@ -14,7 +14,7 @@ uint64_t period(uint16_t n) {
   return k;
 }
 
-int main(int argc, char **argv) {
+int main() {
   uint64_t result = 0;
   int result_i = 0;
   for (int i = 2; i <= 1000; i++) {

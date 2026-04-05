@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 
-int main(int argc, char **argv) {
+int main() {
   std::vector<uint8_t> coins = {1, 2, 5, 10, 20, 50, 100, 200};
   std::vector<uint64_t> result(201, 0);
   result[0] = 1;

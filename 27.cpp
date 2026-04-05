@@ -22,7 +22,7 @@ uint64_t get_longest_run(const int a, const int b,
   return n;
 }
 
-int main(int argc, char **argv) {
+int main() {
   std::vector<bool> sieve(13000, true);
   std::vector<uint16_t> primes;
 

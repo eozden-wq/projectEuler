@@ -22,7 +22,7 @@ std::vector<uint8_t> add_vector_ints(const std::vector<uint8_t> &a,
   return result;
 }
 
-int main(int argc, char **argv) {
+int main() {
   std::vector<uint8_t> a(1000, 0);
   std::vector<uint8_t> b(1000, 0);
   std::vector<uint8_t> c(1000, 0);

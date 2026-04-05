@@ -13,7 +13,7 @@ bool is_digit_sum(uint64_t n) {
   return n == digit_sum;
 }
 
-int main(int argc, char **argv) {
+int main() {
   uint64_t result = 0;
   for (uint64_t i = 10; i <= 999999; i++)
     if (is_digit_sum(i)) {

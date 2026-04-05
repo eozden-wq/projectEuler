@@ -12,7 +12,7 @@ Problem Statement:
 Work out the first ten digits of the sum of the following one-hundred 50-digit
 numbers.
 */
-int main(int argc, char **argv)
+int main()
 {
     std::vector<std::vector<uint8_t>> numbers = {
         {3, 7, 1, 0, 7, 2, 8, 7, 5, 3, 3, 9, 0, 2, 1, 0, 2, 7, 9, 8, 7, 9, 7, 9, 9, 8, 2, 2, 0, 8, 3, 7, 5, 9, 0, 2, 4, 6, 5, 1, 0, 1, 3, 5, 7, 4, 0, 2, 5, 0},

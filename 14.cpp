@@ -42,7 +42,7 @@ uint64_t collatz(uint32_t n)
     return chain_length;
 }
 
-int main(int argc, char **argv)
+int main()
 {
     int result = 0;
     uint64_t result_chain_length = 0;

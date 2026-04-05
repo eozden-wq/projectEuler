@@ -36,7 +36,7 @@ void populate_divisor_sums(std::vector<uint32_t> &divisor_sums) {
       divisor_sums[j] += i;
 }
 
-int main(int argc, char **argv) {
+int main() {
   uint64_t result = 0;
   std::vector<uint32_t> divisor_sums(281234, 0);
 

@@ -11,7 +11,7 @@ Problem Statement:
 2^15 = 32768 and the sum of digits is 3 + 2 + 7 + 6 + 8 = 26.
 What is the sum of digits of the number 2^1000?
 */
-int main(int argc, char **argv)
+int main()
 {
     std::vector<int> number(1000, 0); // 2^0 -
     number[0] = 1;

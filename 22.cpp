@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <cstdint>
 
-int main(int argc, char **argv)
+int main()
 {
     std::ifstream f_names("files/22.txt");
 

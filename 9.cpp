@@ -13,7 +13,7 @@ For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
 There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
 */
-int main(int argc, char **argv)
+int main()
 {
     // a + b + c = 1000 => c < 1000 => a + b < 1000
     for (int c = 1000; c > 0; c--)

@@ -12,7 +12,7 @@ By starting at the top of the triangle below and moving to adjacent numbers on
 the row below, the maximum total from top to bottom is $23$.
 Find the maximum total from top to bottom of the triangle below:
 */
-int main(int argc, char **argv)
+int main()
 {
     std::vector<std::vector<uint64_t>> triangle = {
         {75},

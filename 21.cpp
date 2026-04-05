@@ -21,7 +21,7 @@ int d(int n)
     return res;
 }
 
-int main(int argc, char **argv)
+int main()
 {
     uint64_t res = 0;
 

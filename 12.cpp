@@ -59,7 +59,7 @@ uint64_t num_divisors(uint64_t n)
     return num_factors * (1 + (n > 1));
 }
 
-int main(int argc, char **argv)
+int main()
 {
     int n = 1;
     while (num_divisors(nth_triangular(n)) < 500)
